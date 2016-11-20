@@ -1,3 +1,2 @@
 # dotfiles
-## メモ
-~/dotfilesでクローンしてsymlink.sh実行
+~/dotfilesにクローンしてsymlink.sh実行
