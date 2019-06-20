@@ -12,8 +12,6 @@ export LC_ALL=en_US.UTF-8
 
 # 環境変数
 export LANG=ja_JP.UTF-8
-# python PATH
-export PATH=$PATH:/Users/standard/Library/Python/2.7/bin
 
 # 補完機能を有効にする
 autoload -Uz compinit
@@ -63,20 +61,3 @@ setopt ignore_eof
 setopt interactive_comments
 
 # vim:set ft=zsh :
-
-# Add environment variable COCOS_CONSOLE_ROOT for cocos2d-x
-export COCOS_CONSOLE_ROOT=/Users/standard/cocos2d-x-3.9/tools/cocos2d-console/bin
-export PATH=$COCOS_CONSOLE_ROOT:$PATH
-
-# Add environment variable COCOS_TEMPLATES_ROOT for cocos2d-x
-export COCOS_TEMPLATES_ROOT=/Users/standard/cocos2d-x-3.9/templates
-export PATH=$COCOS_TEMPLATES_ROOT:$PATH
-
-# Add environment variable ANDROID_SDK_ROOT for cocos2d-x
-export ANDROID_SDK_ROOT=/Users/standard/Library/Android/sdk
-export PATH=$ANDROID_SDK_ROOT:$PATH
-export PATH=$ANDROID_SDK_ROOT/tools:$ANDROID_SDK_ROOT/platform-tools:$PATH
-
-# Add environment variable NDK_ROOT for cocos2d-x
-export NDK_ROOT=/Users/standard/android-ndk-r10e
-export PATH=$NDK_ROOT:$PATH
